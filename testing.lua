@@ -302,7 +302,7 @@ do
     getkey.TextColor3 = Color3.fromRGB(255, 255, 255)
     getkey.TextSize = 14.000
     getkey.MouseButton1Click:Connect(function()
-    setclipboard("https://kairobloxc.blogspot.com/p/key-scprit.html")
+    setclipboard("https://note1s.com/notes/1FCFOQ")
                 DiscordLib:Notification("Key System" , "Key Copied to Your Clipboard\n& Paste on Your Browser" , 3)
     end)
     
@@ -321,10 +321,10 @@ do
     confirm.TextSize = 14.000
     confirm.MouseButton1Click:Connect(function()
     DiscordLib:Notification("Key System" , "Key Check, Executing Script..." , 3)
-    if keyhere.Text == "1f262a60600e30c026663a7ccbed6bab" then
+    if keyhere.Text == "HPUVDHKVDGGKPBJSHHPH" then
     wait(3)
     ZENHUB:Destroy()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToiLaModder/ToiLaModderHub/SCR/Menu.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/D-i-ngu-l-c-source/Locsou-/main/testing.lua"))()
     else
     DiscordLib:Notification("Key System" , "Key Wrong Try Again" , 3)
     end
@@ -394,6 +394,8 @@ do
     wait(1)
     MAIN:Destroy()
     end)
+
+
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
